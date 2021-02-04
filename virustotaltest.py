@@ -5,7 +5,7 @@ import hashlib
 
 virustotal_url = 'https://www.virustotal.com/vtapi/v2/file/report'
 scan_url = 'https://www.virustotal.com/vtapi/v2/file/scan'
-api_key = '816ca7d873fd1e308e5b3054c4834866d2676f7258e823d8f6e80bdcea5548dd' # virust total public key
+api_key = 'My API KEY' # virust total public key
 
 
 
