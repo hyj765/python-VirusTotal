@@ -58,6 +58,6 @@ class viruschecker:
             return True
 
 if __name__ == "__main__" :
-    target = 'Unlocker1.9.2.exe'
+    target = sys.argv[1]
     tup = Hasher(target).filehash()
     result = viruschecker(tup,api_key).checking()
