@@ -12,10 +12,7 @@ for entry in T_file.DIRECTORY_ENTRY_IMPORT:
           "address": hex(imp.address),
           "name": imp.name,
       })
-      IAT.append({
-                        "dll": str(entry.dll),
-                        "imports": Ens,
-                    })
+      IAT.append({"dll": str(entry.dll), "imports": Ens,})
 rt = {}
 for line in IAT:
   for func in line['imports']:
